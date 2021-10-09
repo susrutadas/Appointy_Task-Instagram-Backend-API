@@ -30,7 +30,7 @@ University: Vellore Institute of Technology, Chennai
   payload = {
     id
     caption
-    imgurl
+    image
     timestamp
   }
 ```
