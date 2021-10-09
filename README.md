@@ -4,6 +4,47 @@ Name: Susruta Das
 Registration Number: 19BEC1366
 University: Vellore Institute of Technology, Chennai
 
+
+#### Create a user
+```http
+  POST /users
+  
+  payload = {
+    id
+    name
+    email
+    password
+  }
+```
+
+#### Get users By ID 
+
+```http
+  GET /users/{id}
+```
+#### Create a post
+
+```http
+  POST /posts
+  
+  payload = {
+    id
+    caption
+    imgurl
+    timestamp
+  }
+```
+#### Get post By ID 
+
+```http
+  GET /posts/{id}
+```
+#### Get all posts by a user
+
+```http
+  GET /posts/users/{id}
+  ```
+
 ## Testing Instructions
 
 ## 1. Run Main file
